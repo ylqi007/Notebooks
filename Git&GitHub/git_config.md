@@ -44,3 +44,30 @@ If you don't know how to use this command, then type in `git config` in command 
 
 ## References
 * [git config配置](https://www.cnblogs.com/fireporsche/p/9359130.html)
+* [A good starting point for ~/.gitconfig](https://gist.github.com/rab/4067067)
+
+## My `~/.gitconfig`
+```shell
+$ git config --global -l
+user.name=******
+user.email=******
+pull.rebase=true
+fetch.prune=true
+diff.colormoved=zebra
+rebase.autostash=true
+alias.lg=log --color --graph --pretty=format:'%Cgreen%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit -n 10
+core.excludesfile=/Users/******/.gitignore_global
+difftool.sourcetree.cmd=opendiff "$LOCAL" "$REMOTE"
+difftool.sourcetree.path=
+mergetool.sourcetree.cmd=/Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh "$LOCAL" "$REMOTE" -ancestor "$BASE" -merge "$MERGED"
+mergetool.sourcetree.trustexitcode=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+color.branch=auto
+color.diff=auto
+color.status=auto
+color.showbranch=auto
+color.ui=auto
+```
