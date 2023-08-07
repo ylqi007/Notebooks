@@ -90,7 +90,6 @@ git rebase -i [commit-hash]
 ### 2.3 Revert a single file
 ```shell
 git checkout [commit ID] -- path/to/file
-
 git checkout ac12345 -- frontend/src/App.js
 ```
 The following will checkout the `build.xml` file to the first parent commit
@@ -102,9 +101,6 @@ git checkout HEAD~1 -- build.xml
 After reverting the file to a previous screenshot (i.e. referred by commit ID), we need to commit that change by
 ```shell
 git commit -m 'commit message'
-
-or
-
 git commit --amend
 ```
 * https://dev.to/lofiandcode/git-and-github-how-to-revert-a-single-file-dha

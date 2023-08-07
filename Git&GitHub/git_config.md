@@ -2,7 +2,7 @@
 在Git中，我们使用`git config`命令来配置Git的配置文件。Git配置级别主要由以下3类：
 1. 仓库级别(local, 优先级最高)。Git仓库级别对应的配置文件是当前仓库下的`.git/config`
 2. 用户级别(global, 优先级次之)。Git用户级别对应的配置文件是用户主目录下的`~/.gitconfig`
-4. 系统级别(system, 优先级最低)。Git系统级别对应的配置文件是`/etc/gitconfig`，但是我并没有配置过此级别的配置文件，也没有此文件。
+3. 系统级别(system, 优先级最低)。Git系统级别对应的配置文件是`/etc/gitconfig`，但是我并没有配置过此级别的配置文件，也没有此文件。
 
 ### a. 常用的`git config`命令
 If you don't know how to use this command, then type in `git config` in command line to show the instructions
@@ -36,7 +36,6 @@ If you don't know how to use this command, then type in `git config` in command 
     * `git config --global user.email “you@example.com”`
     * `git config --global user.name “Your Name”`
     * 上面的操作表示添加用户级别的配置信息，也就是说修改用户宿主目录下面的配置文件 (`~/.gitconfig`)
-
 
 6. 配置文件是如何生效的？
 
