@@ -133,6 +133,25 @@ git diff HEAD~1 HEAD --name-only
 * `HEAD~1` means the previous commit of the last commit.
 
 
+## 5. Renaming a reposiroty
+You can rename a repository if you're either an organization owner or have admin permissions for the repository. 
+
+When you rename a repository, all existing information, with the exception of project site URLs, is automatically redirected to the new name, including:
+* Issues
+* Wikis
+* Stars
+* Followers
+
+In addition to redirecting web traffic, all `git clone`, `git fetch`, or `git push` operations targeting the previous location will continue to function as if made on the new location. 
+However, to reduce confusion, we strongly recommend updating any existing local clones to point to the new repository URL. 
+You can do this by using `git remote` on the command line:
+```shell
+git remote set-url origin NEW_URL
+```
+
+* [Renaming a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/renaming-a-repository)
+
+
 ## Appendix
 ### 1. `HEAD`
 #### 1.1 What is Git `HEAD`?
