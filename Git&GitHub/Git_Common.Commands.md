@@ -149,7 +149,17 @@ You can do this by using `git remote` on the command line:
 git remote set-url origin NEW_URL
 ```
 
+Renaming Git Branch
+
+```shell
+git checkout <old_name>
+git branch -m <new_name>
+git push origin -u <new_name>
+git push origin --delete <old_name>
+```
+
 * [Renaming a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/renaming-a-repository)
+* [How To Rename a Local and Remote Git Branch](https://linuxize.com/post/how-to-rename-local-and-remote-git-branch/)
 
 
 ## Appendix
