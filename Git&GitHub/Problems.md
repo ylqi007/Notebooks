@@ -6,3 +6,5 @@ git config --global core.quotepath false
 ```
 
 ![](images/git_status_乱码_1.png)
+
+Reference: [git status 显示中文和解决中文乱码](https://blog.csdn.net/u012145252/article/details/81775362)
