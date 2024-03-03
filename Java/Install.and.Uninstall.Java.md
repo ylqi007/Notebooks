@@ -1,3 +1,4 @@
+## Install Java JDKs
 ```shell
 # You can run the following command in a terminal to get the complete installation path. 
 ➜  ~ /usr/libexec/java_home --verbose
@@ -24,6 +25,7 @@ Matching Java Virtual Machines (1):
 /Users/ylqi007/Library/Java/JavaVirtualMachines/corretto-17.0.8.1/Contents/Home
 ```
 
+## Switch Java JDK Version
 If you need to use multiple versions of Java, you can add the following function to your `~/.zshrc` to easily set `JAVA_HOME` for your current shell, e.g. run `jdk 17` to use Java 17 in the current session.
 ```bash
 function jdk() {
@@ -37,8 +39,25 @@ function jdk() {
 }
 ```
 
+**Switch JDK version and check JDK version**
+```shell
+# Switch to JDK8
+jdk 8
+java -version
+
+# Switch to JDK11
+jdk 11
+java -version
+
+# Switch to JDK17
+jdk 17
+java -version
+```
+
+
 ## Reference
 * [Differences Amazon Corretto and OpenJDK](https://stackoverflow.com/questions/53305934/differences-amazon-corretto-and-openjdk)
 * [Amazon Corretto Documentation](https://docs.aws.amazon.com/corretto/)
-* [Amazon Corretto 11 User Guide](https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/what-is-corretto-11.html)
-* [Amazon Corretto 17 User Guide](https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/what-is-corretto-17.html)
+* [Amazon Corretto 8 User Guide](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/what-is-corretto-8.html) (Can find JDK8 download link here)
+* [Amazon Corretto 11 User Guide](https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/what-is-corretto-11.html) (Can find JDK11 download link here)
+* [Amazon Corretto 17 User Guide](https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/what-is-corretto-17.html) (Can find JDK17 download link here)
