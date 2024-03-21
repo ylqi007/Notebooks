@@ -36,7 +36,7 @@ With the `ImmutableSet.of()` method we can instantly create an immutable set wit
 Set<String> immutableSet = ImmutableSet.of("Canada", "China");
 ```
 
-### 3.2 Using `ImmutableSet.bulder()`
+#### 3.2 Using `ImmutableSet.bulder()`
 ```java
 ImmutableSet<String> immutableSet = ImmutableSet.<String>builder()
     .add("Hello")
@@ -45,7 +45,7 @@ ImmutableSet<String> immutableSet = ImmutableSet.<String>builder()
 immutableSet.forEach(System.out::println);
 ```
 
-#### 3.2 Using `ImmutableSet.copyOf()`: 从其他集合中拷贝创建 
+#### 3.3 Using `ImmutableSet.copyOf()`: 从其他集合中拷贝创建 
 Simply put, the `ImmutableSet.copyOf()` method returns a copy of all elements in the set. So after changing the initial set, the immutable instance will stay the same.
 ```java
 Set<String> immutableSet = ImmutableSet.copyOf(set);
@@ -71,6 +71,8 @@ private static final Set<String> TYPES = Set.of("A", "B");  // Since JDK9
 private static final Set<String> TYPES = ImmutableSet.of("A", "B"); // With Guava
 ```
 如果是用JDK9及以后版本，直接用`Set.of(...)`即可。
+
+
 
 
 ## Reference
