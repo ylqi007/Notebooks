@@ -74,7 +74,6 @@ private static final Set<String> TYPES = ImmutableSet.of("A", "B"); // With Guav
 
 
 
-
 ## Reference
 * [Immutable Set in Java](https://www.baeldung.com/java-immutable-set)
 * [Interface java.util.Set<E> (JDK9)](https://docs.oracle.com/javase/9/docs/api/java/util/Set.html)

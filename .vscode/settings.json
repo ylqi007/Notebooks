@@ -1,7 +1,0 @@
-{
-    "git.autorefresh": false,
-    "git.autoRepositoryDetection": false,
-    "git.suggestSmartCommit": false,
-    "git.useEditorAsCommitInput": false,
-    "editor.acceptSuggestionOnCommitCharacter": false
-}
