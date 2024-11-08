@@ -1,4 +1,10 @@
-## 
+## 设计要点和原则
+* High availability: The system responds quickly, even during failures.
+* High scalability: The system can be scaled to support large data set.
+* Automatic scaling: The addition/deletion of servers should be automatic based on traffic.
+* Tunable consistency.
+* Low latency.
+
 
 ## 🟩🌟Engineering Blogs:
 * Companies:
