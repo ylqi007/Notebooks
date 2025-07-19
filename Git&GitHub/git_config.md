@@ -113,4 +113,5 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cgreen%h%Cre
 git config --global pull.rebase true
 git config --global rebase.autostash true
 git config --global log.number 20
+git config --global core.quotepath false  # 解决git status的中文乱码
 ```
