@@ -1,9 +1,9 @@
 # 不同 `git clone` 之间的区别
 
 ```shell
-git clone https://github.com/ylqi007/Hackintosh.git 
+git clone https://github.com/your-username/Hackintosh.git 
 
-git clone git@github.com:ylqi007/Hackintosh.git
+git clone git@github.com:your-username/Hackintosh.git
 ```
 
 
@@ -14,7 +14,7 @@ git clone git@github.com:ylqi007/Hackintosh.git
 ## 🔹 一、HTTPS 克隆
 
 ```bash
-git clone https://github.com/ylqi007/Hackintosh.git
+git clone https://github.com/your-username/Hackintosh.git
 ```
 
 ### ✅ 特点：
@@ -42,7 +42,7 @@ git clone https://github.com/ylqi007/Hackintosh.git
 ## 🔹 二、SSH 克隆
 
 ```bash
-git clone git@github.com:ylqi007/Hackintosh.git
+git clone git@github.com:your-username/Hackintosh.git
 ```
 
 ### ✅ 特点：

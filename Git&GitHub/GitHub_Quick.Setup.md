@@ -12,13 +12,13 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin git@github.com:ylqi007/TestDemo.git
+git remote add origin git@github.com:your-username/TestDemo.git
 git push -u origin main
 ```
 
 ### 2. Push an existing repository from the command line
 ```shell
-git remote add origin git@github.com:ylqi007/TestDemo.git
+git remote add origin git@github.com:your-username/TestDemo.git
 git branch -M main
 git push -u origin main
 ```
@@ -34,7 +34,7 @@ When you rename a repository, all existing information, with the exception of pr
 In addition to redirecting web traffice, all `git clone`, `git fetch`, or `git push` operations targeting the previous location will continue to function as if made on the new location. However, to reduce confusion, we strongly recommend updating any existing local clones to point to the new repository URL. You can do this by using `git remote` on the command line:
 ```shell
 git remote set-url origin <NEW_URL>
-git remote set-url origin git@github.com:ylqi007/notebooks-old.git
+git remote set-url origin git@github.com:your-username/notebooks-old.git
 ```
 
 **Reference**

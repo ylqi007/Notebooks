@@ -21,3 +21,14 @@ brew install --cask sublime-text
     #################################################################
     [[ -f ~/.zsh_alias ]] && source ~/.zsh_alias
     ```
+
+
+## Merge all tabs to one window
+To consolidate all tabs from multiple windows into a single window in Sublime text, you can use a plugin specifically designed for this purpose.
+
+Step 1: Using `Package Control` to install plugin `Merge Window`
+
+1. Open the Command Palette (`Ctrl + Shift + P` (Win) or `Cmd + Shift + P` (Mac)). 
+2. Type `Install Package` to open `Package Control: 
+
+

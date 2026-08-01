@@ -25,7 +25,7 @@ You can run the following command in a terminal to get the complete installation
 ➜  ~ /usr/libexec/java_home --verbose
 Matching Java Virtual Machines (3):
     17.0.9 (x86_64) "Oracle Corporation" - "Java SE 17.0.9" /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
-    17.0.8 (x86_64) "Amazon.com Inc." - "Amazon Corretto 17" /Users/ylqi007/Library/Java/JavaVirtualMachines/corretto-17.0.8.1/Contents/Home
+    17.0.8 (x86_64) "Amazon.com Inc." - "Amazon Corretto 17" /Users/<username>/Library/Java/JavaVirtualMachines/corretto-17.0.8.1/Contents/Home
     11.0.19 (x86_64) "Homebrew" - "OpenJDK 11.0.19" /usr/local/Cellar/openjdk@11/11.0.19/libexec/openjdk.jdk/Contents/Home
 /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
 
@@ -37,13 +37,13 @@ Uninstalling /usr/local/Cellar/openjdk@11/11.0.19... (673 files, 298.2MB)
 ➜  ~ /usr/libexec/java_home --verbose
 Matching Java Virtual Machines (2):
     17.0.9 (x86_64) "Oracle Corporation" - "Java SE 17.0.9" /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
-    17.0.8 (x86_64) "Amazon.com Inc." - "Amazon Corretto 17" /Users/ylqi007/Library/Java/JavaVirtualMachines/corretto-17.0.8.1/Contents/Home
+    17.0.8 (x86_64) "Amazon.com Inc." - "Amazon Corretto 17" /Users/<username>/Library/Java/JavaVirtualMachines/corretto-17.0.8.1/Contents/Home
 /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
 
 ➜  ~ /usr/libexec/java_home --verbose
 Matching Java Virtual Machines (1):
-    17.0.8 (x86_64) "Amazon.com Inc." - "Amazon Corretto 17" /Users/ylqi007/Library/Java/JavaVirtualMachines/corretto-17.0.8.1/Contents/Home
-/Users/ylqi007/Library/Java/JavaVirtualMachines/corretto-17.0.8.1/Contents/Home
+    17.0.8 (x86_64) "Amazon.com Inc." - "Amazon Corretto 17" /Users/<username>/Library/Java/JavaVirtualMachines/corretto-17.0.8.1/Contents/Home
+/Users/<username>/Library/Java/JavaVirtualMachines/corretto-17.0.8.1/Contents/Home
 ```
 
 ## Setting Up `JAVA_HOME` and `PATH`
